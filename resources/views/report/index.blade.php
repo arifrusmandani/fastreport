@@ -52,9 +52,7 @@
                               <td> 
                                   {{ Form::open(['method'=>'DELETE'])}}
                                 <a href="{{route ('report.create')}}" class="btn btn-primary btn-sm" data-toggle="tooltip" data-original-title="Detail"><i class="fa fa-file-text-o"></i></a>
-                                <a href="" class="btn btn-warning btn-sm" data-toggle="modal"
-                                  
-                                  data-target="#edit" data-original-title="Edit"><i class="fa fa-edit"></i></a>
+                                <a href="{{route ('report.edit',1)}}" class="btn btn-warning btn-sm" data-toggle="tooltip" data-original-title="Edit"><i class="fa fa-edit"></i></a>
                                   
                                   <button onclick="return confirm('Anda Yakin Ingin Menghapus Kegiatan?')" type ="submit" class="btn btn-danger btn-sm" data-toggle="tooltip" data-original-title="Hapus"><i class="fa fa-trash"></i></button>
                                   {{ Form::close()}}

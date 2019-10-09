@@ -1,5 +1,5 @@
 @extends('layouts.main_admin')
-@section('title',' | Create')
+@section('title',' | Edit')
 <link rel="stylesheet" href="{{asset('assets/plugins/html5-editor/bootstrap-wysihtml5.css')}}" />
 @section('breadcrumb')
 <div class="row page-titles">
@@ -7,8 +7,8 @@
         <h3 class="text-themecolor">Report</h3>
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
-            <li class="breadcrumb-item">Report</li>
-            <li class="breadcrumb-item active">Create</li>
+            <li class="breadcrumb-item"><a href="#">Report</a></li>
+            <li class="breadcrumb-item active">Edit</li>
         </ol>
     </div>
 </div>
@@ -30,7 +30,7 @@
                                                 <div class="card">
                                                    
                                                     
-                                                            <textarea class="mymce" name="area"></textarea>
+                                                            <textarea class="mymce" name="area">a</textarea>
                                            
                                                 </div>
                                             </div>
@@ -44,7 +44,7 @@
                                                 <div class="card">
                                                    
                                                     
-                                                            <textarea class="mymce" name="area2"></textarea>
+                                                            <textarea class="mymce" name="area2">b</textarea>
                                            
                                                 </div>
                                             </div>
@@ -57,7 +57,7 @@
                                             <div class="col-12">
                                                 <div class="card">
                                                    
-                                                            <textarea class="mymce" name="area3"></textarea>
+                                                            <textarea class="mymce" name="area3">c</textarea>
                                            
                                                 </div>
                                             </div>
@@ -70,7 +70,7 @@
                                             <div class="col-12">
                                                 <div class="card">
                                                    
-                                                            <textarea class="mymce" name="area4"></textarea>
+                                                            <textarea class="mymce" name="area4">d</textarea>
                                            
                                                 </div>
                                             </div>

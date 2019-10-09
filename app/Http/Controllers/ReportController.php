@@ -32,4 +32,9 @@ class ReportController extends Controller
     	return view('report.cover');
     }
 
+    public function edit()
+    {
+      return view('report.edit');
+    }
+
 }

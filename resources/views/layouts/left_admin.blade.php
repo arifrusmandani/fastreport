@@ -6,7 +6,7 @@
                     <!-- User profile image -->
                     <div class="profile-img"> <img src="{{asset('assets/images/users/profile.jpg')}}" alt="user" /> </div>
                     <!-- User profile text-->
-                    <div class="profile-text"> <a href="#" class="dropdown-toggle u-dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Administrator</a>
+                    <div class="profile-text"> <a href="#" class="dropdown-toggle u-dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Nama Pegawai</a>
                         <div class="dropdown-menu animated flipInY"> <a href="" class="dropdown-item"><i class="ti-user"></i> Edit Profile</a> 
                             
                             <div class="dropdown-divider"></div> <a href="" class="dropdown-item"><i class="fa fa-power-off"></i> Logout</a> </div>

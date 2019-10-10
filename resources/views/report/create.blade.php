@@ -21,7 +21,8 @@
                         <div class="card">
                             <div class="card-body wizard-content">
                                                                 
-                                <form action="/submit" class="tab-wizard wizard-circle">
+                                <form  method="POST" action="{{ url('laporan') }}" class="tab-wizard wizard-circle">
+                                    @csrf
                                     <!-- Step 1 -->
                                     <h6>Cover</h6>
                                     <section>
@@ -30,7 +31,7 @@
                                                 <div class="card">
                                                    
                                                     
-                                                            <textarea class="mymce" name="area"></textarea>
+                                                            <textarea class="mymce" name="cover"></textarea>
                                            
                                                 </div>
                                             </div>
@@ -44,7 +45,7 @@
                                                 <div class="card">
                                                    
                                                     
-                                                            <textarea class="mymce" name="area2"></textarea>
+                                                            <textarea class="mymce" name="daftarisi"></textarea>
                                            
                                                 </div>
                                             </div>
@@ -57,7 +58,7 @@
                                             <div class="col-12">
                                                 <div class="card">
                                                    
-                                                            <textarea class="mymce" name="area3"></textarea>
+                                                            <textarea class="mymce" name="bab"></textarea>
                                            
                                                 </div>
                                             </div>
@@ -70,7 +71,7 @@
                                             <div class="col-12">
                                                 <div class="card">
                                                    
-                                                            <textarea class="mymce" name="area4"></textarea>
+                                                            <textarea class="mymce" name="lampiran"></textarea>
                                            
                                                 </div>
                                             </div>

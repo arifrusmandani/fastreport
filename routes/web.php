@@ -15,3 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::resource('/report','ReportController');
+Route::post('/laporan','ReportController@laporan');
+Route::get('/cekinput','ReportController@cekinput');
+Route::get('/cetaklaporan/{id}','ReportController@cetaklaporan');

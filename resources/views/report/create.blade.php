@@ -1,6 +1,6 @@
 @extends('layouts.main_admin')
 @section('title',' | Create')
-<link rel="stylesheet" href="{{asset('assets/plugins/html5-editor/bootstrap-wysihtml5.css')}}" />
+
 @section('breadcrumb')
 <div class="row page-titles">
     <div class="col-md-5 col-8 align-self-center">
@@ -111,8 +111,8 @@ $(document).ready(function() {
                 ],
                 toolbar: "insertfile undo redo | fontselect fontsizeselect styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | l      ink image | print preview media fullpage | forecolor backcolor emoticons template",
                 templates: [
-                    {title: 'Cover', description: 'Cover Template', url: '../report/cover'}
-                    {title: 'BAB', description: 'BAB Template', content: 'Conttent template'},
+                    {title: 'Cover', description: 'Cover Template', url: '../report/cover'},
+                    {title: 'BAB', description: 'BAB Template', content: 'Conttent template'}
                   ]
 
             });

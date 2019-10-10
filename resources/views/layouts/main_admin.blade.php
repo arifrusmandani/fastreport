@@ -1,4 +1,4 @@
-<meta name="csrf-token" content="{{ csrf_token() }}">
+
 @include('layouts.head_admin')
 
 <body class="fix-header fix-sidebar card-no-border">

@@ -31,6 +31,7 @@
     <link href="{{asset('assets/plugins/notifications/notifications.css')}}" rel="stylesheet">
     <link href="{{asset('assets/plugins/sweetalert/sweetalert.css')}}" rel="stylesheet">
     <link href="{{asset('assets/plugins/wizard/steps.css')}}" rel="stylesheet">
+    <link rel="stylesheet" href="{{asset('assets/plugins/html5-editor/bootstrap-wysihtml5.css')}}" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

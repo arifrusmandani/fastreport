@@ -1,6 +1,6 @@
 @extends('layouts.main_admin')
 @section('title',' | Report')
-<link rel="stylesheet" href="{{asset('assets/plugins/html5-editor/bootstrap-wysihtml5.css')}}" />
+
 @section('breadcrumb')
 <div class="row page-titles">
     <div class="col-md-5 col-8 align-self-center">

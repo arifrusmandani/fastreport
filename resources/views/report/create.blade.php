@@ -111,24 +111,13 @@ $(document).ready(function() {
                 ],
                 toolbar: "insertfile undo redo | fontselect fontsizeselect styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | l      ink image | print preview media fullpage | forecolor backcolor emoticons template",
                 templates: [
-                    {title: 'Some title 1', description: 'Some desc 1', content: 'My content'},
-                    {title: 'Some title 2', description: 'Some desc 2', url: '../report/cover'}
+                    {title: 'Cover', description: 'Cover Template', url: '../report/cover'}
+                    {title: 'BAB', description: 'BAB Template', content: 'Conttent template'},
                   ]
 
             });
         }
     });
-// tinymce.init({
-//   selector: "textarea",  
-//   plugins: "template",
-//   menubar: "insert",
-//   toolbar: "template",
-//   templates: [
-//     {title: 'Some title 1', description: 'Some desc 1', content: 'My content'},
-//     {title: 'Some title 2', description: 'Some desc 2', content: 'My content2'}
-//   ]
-// });
-
   
 </script>
 @endsection

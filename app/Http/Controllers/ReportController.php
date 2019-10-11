@@ -74,11 +74,13 @@ class ReportController extends Controller
         ]);
 
         //generate output data
+        $mpdf->AddPage('','','1','','on');
+        $mpdf->WriteHTML($data['cover'] );
+        $mpdf->SetHeader('Ini adalah laporan mengenai .............................');
+        $mpdf->AddPage('','','1','','off');
+        $mpdf->WriteHTML($data['daftarisi']);
         $mpdf->SetHeader('Ini adalah laporan mengenai .............................');
         $mpdf->SetFooter('Laporan Bulan ke x|'.$filename.'.|{PAGENO}');
-        $mpdf->WriteHTML($data['cover']);
-        $mpdf->AddPage();
-        $mpdf->WriteHTML($data['daftarisi']);
         $mpdf->AddPage();
         $mpdf->WriteHTML($data['bab']);
         $mpdf->AddPage();
@@ -130,11 +132,13 @@ class ReportController extends Controller
         ]);
 
         //generate output data
+        $mpdf->AddPage('','','1','','on');
+        $mpdf->WriteHTML($data['cover'] );
+        $mpdf->SetHeader('Ini adalah laporan mengenai .............................');
+        $mpdf->AddPage('','','1','','off');
+        $mpdf->WriteHTML($data['daftarisi']);
         $mpdf->SetHeader('Ini adalah laporan mengenai .............................');
         $mpdf->SetFooter('Laporan Bulan ke x|'.$filename.'.|{PAGENO}');
-        $mpdf->WriteHTML($data['cover']);
-        $mpdf->AddPage();
-        $mpdf->WriteHTML($data['daftarisi']);
         $mpdf->AddPage();
         $mpdf->WriteHTML($data['bab']);
         $mpdf->AddPage();
